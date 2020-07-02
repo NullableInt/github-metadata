@@ -14,7 +14,7 @@ module Jekyll
       end
 
       def munge!
-        Jekyll::GitHubMetadata.log :debug, "Initializing..."
+        Jekyll::GitHubMetadata.log :debug, "Initializing so you can see..."
 
         # This is the good stuff.
         site.config["github"] = github_namespace
