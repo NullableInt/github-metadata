@@ -71,7 +71,7 @@ module Jekyll
       end
 
       def should_add_url_fallbacks?
-        Jekyll.env == "production" || Pages.page_build?
+        true
       end
 
       def should_warn_about_site_name?
